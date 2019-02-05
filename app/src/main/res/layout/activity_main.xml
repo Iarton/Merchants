@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mercador A"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ouroA"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn10A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+10 Ouro"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn5A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+5 Ouro"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 Ouro"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mercador B"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ouroB"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn10B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+10 Ouro"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn5B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+5 Ouro"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 Ouro"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Produto"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Qt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Quantidade"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Produto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Produtos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
